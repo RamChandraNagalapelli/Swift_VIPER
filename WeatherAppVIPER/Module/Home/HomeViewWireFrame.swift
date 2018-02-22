@@ -11,6 +11,12 @@ import UIKit
 class HomeViewWireFrame {
 
     class func configure(_ viewController: HomeViewController) {
-//        let presenter = 
+        let presenter = HomeViewPresenter()
+        let interactor = HomeViewInteractor()
+
+        presenter.view = viewController
+        presenter.interactor = interactor
+        interactor.presenter = presenter
+        viewController.presenter = presenter
     }
 }

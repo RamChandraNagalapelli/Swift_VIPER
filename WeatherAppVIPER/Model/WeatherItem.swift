@@ -17,6 +17,10 @@ struct WeatherItem {
     var maxTemp: Double
     var date: Date
 
+    var imageUrl: URL {
+        return URL(string: "http://openweathermap.org/img/w/" + icon + ".png")!
+    }
+
     init(_ data: NSDictionary) {
         city = data.value(forKey: "name") as? String ?? ""
         let weather = (data.value(forKey: "weather") as? [NSDictionary])?.first
