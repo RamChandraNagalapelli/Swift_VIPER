@@ -6,7 +6,7 @@
 //  Copyright © 2018 ramchandra. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 protocol HomeViewInteractorInput {
     func getWeatherDataFor(latitude: Double, longitude: Double)
