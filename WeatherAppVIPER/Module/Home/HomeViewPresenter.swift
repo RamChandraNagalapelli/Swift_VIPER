@@ -14,6 +14,7 @@ class HomeViewPresenter: HomeViewPresenterInput {
 
     weak var view: HomeViewControllerInput!
     var interactor: HomeViewInteractorInput!
+    var router: HomeViewRouterinput!
 
     func getWeatherDataFor(latitude: Double, longitude: Double) {
         view.showLoader(true)
@@ -39,4 +40,7 @@ class HomeViewPresenter: HomeViewPresenterInput {
         return temp.rounded(toPlaces: 2).string + "° C"
     }
 
+    func showDetailScreenWithData(atIndex index: Int) {
+        router.showDetailScreenWithData(atIndex: index)
+    }
 }

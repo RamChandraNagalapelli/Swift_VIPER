@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A4077B6204687BA008D0A22 /* HomeViewAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077B5204687BA008D0A22 /* HomeViewAssembly.swift */; };
+		1A4077B820469149008D0A22 /* HomeViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077B720469149008D0A22 /* HomeViewRouter.swift */; };
+		1A4077BB204692A9008D0A22 /* WeatherDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077BA204692A9008D0A22 /* WeatherDetailViewController.swift */; };
+		1A4077BD20469CC2008D0A22 /* WeatherDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077BC20469CC2008D0A22 /* WeatherDetailPresenter.swift */; };
+		1A4077BF20469CD1008D0A22 /* WeatherDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077BE20469CD1008D0A22 /* WeatherDetailInteractor.swift */; };
+		1A4077C120469CE2008D0A22 /* WeatherDetailAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A4077C020469CE2008D0A22 /* WeatherDetailAssembly.swift */; };
 		1A521868203EE02B003186A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521867203EE02B003186A5 /* AppDelegate.swift */; };
 		1A52186A203EE02C003186A5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521869203EE02C003186A5 /* HomeViewController.swift */; };
 		1A521872203EE02C003186A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A521870203EE02C003186A5 /* LaunchScreen.storyboard */; };
@@ -19,13 +25,18 @@
 		1A52188C203EE1CD003186A5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521887203EE1CD003186A5 /* NetworkManager.swift */; };
 		1A521890203EE22F003186A5 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52188E203EE22E003186A5 /* DayView.swift */; };
 		1A521891203EE22F003186A5 /* WeatherCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52188F203EE22E003186A5 /* WeatherCell.swift */; };
-		1A521895203EEA27003186A5 /* HomeViewWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521894203EEA27003186A5 /* HomeViewWireFrame.swift */; };
 		1A521898203EEBDE003186A5 /* WeatherItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521897203EEBDE003186A5 /* WeatherItem.swift */; };
 		1A52189A203EEC1A003186A5 /* HomeViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A521899203EEC1A003186A5 /* HomeViewPresenter.swift */; };
 		1A52189E203EEC5F003186A5 /* HomeViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A52189D203EEC5F003186A5 /* HomeViewInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A4077B5204687BA008D0A22 /* HomeViewAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = HomeViewAssembly.swift; path = WeatherAppVIPER/Module/Home/HomeViewAssembly.swift; sourceTree = SOURCE_ROOT; };
+		1A4077B720469149008D0A22 /* HomeViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRouter.swift; sourceTree = "<group>"; };
+		1A4077BA204692A9008D0A22 /* WeatherDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailViewController.swift; sourceTree = "<group>"; };
+		1A4077BC20469CC2008D0A22 /* WeatherDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailPresenter.swift; sourceTree = "<group>"; };
+		1A4077BE20469CD1008D0A22 /* WeatherDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailInteractor.swift; sourceTree = "<group>"; };
+		1A4077C020469CE2008D0A22 /* WeatherDetailAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherDetailAssembly.swift; sourceTree = "<group>"; };
 		1A521864203EE02B003186A5 /* WeatherAppVIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherAppVIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A521867203EE02B003186A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A521869203EE02C003186A5 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -40,7 +51,6 @@
 		1A521887203EE1CD003186A5 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1A52188E203EE22E003186A5 /* DayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
 		1A52188F203EE22E003186A5 /* WeatherCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherCell.swift; sourceTree = "<group>"; };
-		1A521894203EEA27003186A5 /* HomeViewWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewWireFrame.swift; sourceTree = "<group>"; };
 		1A521897203EEBDE003186A5 /* WeatherItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherItem.swift; sourceTree = "<group>"; };
 		1A521899203EEC1A003186A5 /* HomeViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewPresenter.swift; sourceTree = "<group>"; };
 		1A52189D203EEC5F003186A5 /* HomeViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewInteractor.swift; sourceTree = "<group>"; };
@@ -57,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1A4077B920469278008D0A22 /* WeatherDetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1A4077BA204692A9008D0A22 /* WeatherDetailViewController.swift */,
+				1A4077BC20469CC2008D0A22 /* WeatherDetailPresenter.swift */,
+				1A4077BE20469CD1008D0A22 /* WeatherDetailInteractor.swift */,
+				1A4077C020469CE2008D0A22 /* WeatherDetailAssembly.swift */,
+			);
+			path = WeatherDetailScreen;
+			sourceTree = "<group>";
+		};
 		1A52185B203EE02B003186A5 = {
 			isa = PBXGroup;
 			children = (
@@ -138,9 +159,10 @@
 			children = (
 				1A52188D203EE225003186A5 /* View */,
 				1A521869203EE02C003186A5 /* HomeViewController.swift */,
-				1A521894203EEA27003186A5 /* HomeViewWireFrame.swift */,
 				1A521899203EEC1A003186A5 /* HomeViewPresenter.swift */,
 				1A52189D203EEC5F003186A5 /* HomeViewInteractor.swift */,
+				1A4077B5204687BA008D0A22 /* HomeViewAssembly.swift */,
+				1A4077B720469149008D0A22 /* HomeViewRouter.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -148,6 +170,7 @@
 		1A521893203EE305003186A5 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1A4077B920469278008D0A22 /* WeatherDetailScreen */,
 				1A521892203EE2F5003186A5 /* Home */,
 			);
 			path = Module;
@@ -234,11 +257,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				1A52188B203EE1CD003186A5 /* UIViewController+Extension.swift in Sources */,
-				1A521895203EEA27003186A5 /* HomeViewWireFrame.swift in Sources */,
 				1A521890203EE22F003186A5 /* DayView.swift in Sources */,
+				1A4077BD20469CC2008D0A22 /* WeatherDetailPresenter.swift in Sources */,
+				1A4077B6204687BA008D0A22 /* HomeViewAssembly.swift in Sources */,
+				1A4077BB204692A9008D0A22 /* WeatherDetailViewController.swift in Sources */,
 				1A521898203EEBDE003186A5 /* WeatherItem.swift in Sources */,
 				1A521891203EE22F003186A5 /* WeatherCell.swift in Sources */,
+				1A4077BF20469CD1008D0A22 /* WeatherDetailInteractor.swift in Sources */,
 				1A52188A203EE1CD003186A5 /* UIImageView+Extension.swift in Sources */,
+				1A4077B820469149008D0A22 /* HomeViewRouter.swift in Sources */,
 				1A521889203EE1CD003186A5 /* Double+Extension.swift in Sources */,
 				1A52189E203EEC5F003186A5 /* HomeViewInteractor.swift in Sources */,
 				1A52188C203EE1CD003186A5 /* NetworkManager.swift in Sources */,
@@ -246,6 +273,7 @@
 				1A521868203EE02B003186A5 /* AppDelegate.swift in Sources */,
 				1A52189A203EEC1A003186A5 /* HomeViewPresenter.swift in Sources */,
 				1A521888203EE1CD003186A5 /* Enum.swift in Sources */,
+				1A4077C120469CE2008D0A22 /* WeatherDetailAssembly.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

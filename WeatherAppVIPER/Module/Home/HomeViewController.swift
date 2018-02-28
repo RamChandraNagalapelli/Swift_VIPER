@@ -18,6 +18,7 @@ protocol HomeViewControllerOutput {
     func getWeatherDataFor(latitude: Double, longitude: Double)
     func dateString(fromDate date: Date) -> String
     func tempString(temp: Double, roundedUpTo place: Int) -> String
+    func showDetailScreenWithData(atIndex index: Int)
 }
 
 class HomeViewController: UIViewController, HomeViewControllerInput {
@@ -34,7 +35,7 @@ class HomeViewController: UIViewController, HomeViewControllerInput {
 
     override func awakeFromNib() {
         super.awakeFromNib()
-        HomeViewWireFrame.configure(self)
+        HomeViewAssembly.configure(self)
     }
 
     override func viewDidLoad() {
@@ -119,6 +120,7 @@ extension HomeViewController: UITableViewDataSource {
 extension HomeViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        presenter.showDetailScreenWithData(atIndex: indexPath.row)
     }
 
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
